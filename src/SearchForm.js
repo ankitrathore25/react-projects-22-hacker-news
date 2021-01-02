@@ -10,6 +10,7 @@ const SearchForm = () => {
       <input
         type='text'
         className='form-input'
+        placeholder='search news here...'
         value={query}
         onChange={(e) => handleSearch(e.target.value)}
       />
